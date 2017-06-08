@@ -37,4 +37,4 @@ A screenshot of an OPI postman login response can be seen below:<br/>
 * Configure correctly and test SAML without removing the previously configured LDAP settings
 
 ## Debugging
-As it is not immidiate to debug LDAP authentication, if the users encounter issues it is recommended to disable temporarily SAML and enable LDAP only, to test if the user can log-in correctly. If not, there must be some configuration mismatch on the LDAP section.
+As it is not immediate to debug LDAP authentication, if the users encounter issues it is recommended to disable temporarily SAML and enable LDAP only, to test if the user can log-in correctly. If not, there must be some configuration mismatch on the LDAP section.
