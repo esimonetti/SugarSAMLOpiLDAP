@@ -2,8 +2,12 @@
 Authenticate against LDAP for the Outlook Plugin (OPI) instead of local Sugar database credentials, when SSO SAML authentication is enabled.
 
 ## Notes
-This customisation applies to you, if your Sugar system has a SSO SAML based solution for authentication that sources and/or synchronises periodically users credentials from LDAP, and you have the need of authenticating the Outlook Plugin (OPI) against LDAP credentials.<br /><br />
-One important aspect to remember is that the SSO SAML implementation looks up a user leveraging the email address, while LDAP does it with the username.
+This customisation applies to you, if all the following conditions apply:
+1. The Sugar system has a SSO SAML based solution for authentication that sources and/or synchronises periodically users and credentials from LDAP, and there is the need of authenticating the Outlook Plugin (OPI) against LDAP credentials
+2. The SSO identity provider is no longer the only/main source of truth for your user authentication
+3. If Sugar is hosted in the cloud, LDAP will have to be available and reachable by the Sugar installation
+ 
+<br />One important aspect to remember is that the Sugar's SSO SAML implementation looks up a user leveraging the email address, while LDAP does it with the username.
 
 ## Requirements
 * Tested on Sugar 7.9.0.0
