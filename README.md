@@ -1,5 +1,5 @@
 # SugarSAMLOpiLDAP
-Authenticate against LDAP for the Outlook Plugin (OPI) instead of local Sugar database credentials, when SSO SAML authentication is enabled.
+Authenticate against LDAP for the Outlook Plugin (OPI), when SSO SAML authentication is enabled.
 
 ## Notes
 This customisation applies to you, if all the following conditions apply:
