@@ -9,6 +9,8 @@ This customisation applies to you, if all the following conditions apply:
  
 <br />One important aspect to remember is that the Sugar's SSO SAML implementation looks up a user leveraging the email address, while LDAP does it with the username.
 
+<strong>This is NOT a SugarCRM officially supported setup, use at your own risk.</strong>
+
 ## Requirements
 * Tested on Sugar 7.9.0.0
 * Tested with Okta SSO SAML
